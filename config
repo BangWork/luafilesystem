@@ -13,6 +13,7 @@ LUA_LIBDIR= /usr/lib64/lua/$(LUA_VERSION)
 LUA_INC += -I$(PREFIX)/include
 LUA_INC += -I/usr/include/lua$(LUA_VERSION) -I/usr/include/lua/$(LUA_VERSION)
 LUA_INC += -I/opt/openresty/luajit/include/luajit-2.1
+LUA_INC += -I/usr/local/openresty/luajit/include/luajit-2.1
 
 # OS dependent
 LIB_OPTION= -shared #for Linux
